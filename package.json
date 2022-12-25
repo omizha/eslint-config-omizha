@@ -1,0 +1,24 @@
+{
+  "name": "@omizha/eslint-plugin",
+  "version": "0.1.0",
+  "description": "Omizha's eslint plugin",
+  "author": {
+    "name": "omizha"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^8.4.10",
+    "@types/estree": "^1.0.0",
+    "@types/node": "^18.11.17",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8.30.0",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "yarn tsc --build --force lib",
+    "build:watch": "yarn tsc -p lib",
+    "test": "yarn jest --watch"
+  }
+}
