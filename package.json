@@ -2,11 +2,13 @@
   "name": "@omizha/eslint-plugin",
   "version": "0.1.0",
   "description": "Omizha's eslint plugin",
+  "private": "false",
   "author": {
     "name": "omizha"
   },
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://github.com/omizha/eslint-plugin",
   "devDependencies": {
     "@types/eslint": "^8.4.10",
     "@types/estree": "^1.0.0",
