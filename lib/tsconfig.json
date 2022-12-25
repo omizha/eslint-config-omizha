@@ -3,7 +3,7 @@
     "allowJs": false,
     "target": "ES6",
     "module": "CommonJS",
-    "isolatedModules": true,
+    "isolatedModules": false,
     "outDir": "../dist",
     "watch": true,
     "moduleResolution": "Node",

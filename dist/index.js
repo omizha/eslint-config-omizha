@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 module.exports = {
     extends: [
         'prettier',
@@ -11,12 +9,12 @@ module.exports = {
         'prettier',
         '@typescript-eslint',
     ],
-    configs: {
-        base: {
-            plugins: ['@omizha'],
-            rules: {}
-        }
-    },
+    // configs: {
+    //   base: {
+    //     plugins: [],
+    //     rules: {}
+    //   }
+    // },
     rules: {
         'prettier/prettier': [
             'error',

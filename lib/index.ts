@@ -1,5 +1,3 @@
-export {};
-
 module.exports = {
   extends: [
     'prettier',
@@ -11,12 +9,12 @@ module.exports = {
     'prettier',
     '@typescript-eslint',
   ],
-  configs: {
-    base: {
-      plugins: ['@omizha'],
-      rules: {}
-    }
-  },
+  // configs: {
+  //   base: {
+  //     plugins: [],
+  //     rules: {}
+  //   }
+  // },
   rules: {
     'prettier/prettier': [
       'error',
