@@ -1,11 +1,11 @@
 {
   "name": "@omizha/eslint-plugin",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Omizha's eslint plugin",
   "author": {
     "name": "omizha"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "homepage": "https://github.com/omizha/eslint-plugin",
   "devDependencies": {
