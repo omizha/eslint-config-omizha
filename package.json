@@ -2,7 +2,6 @@
   "name": "@omizha/eslint-plugin",
   "version": "0.2.0",
   "description": "Omizha's eslint plugin",
-  "private": "false",
   "author": {
     "name": "omizha"
   },
