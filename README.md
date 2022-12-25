@@ -1,0 +1,1 @@
+# omizha-eslint
