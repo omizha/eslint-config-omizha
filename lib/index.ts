@@ -1,14 +1,7 @@
 module.exports = {
-  extends: [
-    'prettier',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
-  ],
+  extends: ['prettier', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   parser: '@typescript-eslint/parser',
-  plugins: [
-    'prettier',
-    '@typescript-eslint',
-  ],
+  plugins: ['prettier', '@typescript-eslint'],
   // configs: {
   //   base: {
   //     plugins: [],
@@ -19,7 +12,7 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        endOfLine: 'auto',
+        endOfLine: 'lf',
         orderedImports: true,
         parser: 'typescript',
         printWidth: 140,
@@ -28,7 +21,7 @@ module.exports = {
         tabWidth: 2,
         trailingComma: 'all',
         useTabs: false,
-      }
-    ]
+      },
+    ],
   },
 };
