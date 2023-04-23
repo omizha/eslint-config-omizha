@@ -21,6 +21,8 @@ module.exports = {
                 tabWidth: 2,
                 trailingComma: 'all',
                 useTabs: false,
+                bracketSpacing: true,
+                bracketSameLine: false,
             },
         ],
     },
